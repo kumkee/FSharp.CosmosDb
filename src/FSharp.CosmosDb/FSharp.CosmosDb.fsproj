@@ -1,16 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <PackageId>kumkee.CosmosDB</PackageId>
     <TargetFramework>net6.0</TargetFramework>
     <Description>An F# friendly approach to working with CosmosDB.</Description>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="../shared/AsyncSeqExt.fs" />
-    <Compile Include="../shared/MaybeBinder.fs" />
-    <Compile Include="IdAttribute.fs" />
-    <Compile Include="PartitionKeyAttribute.fs" />
-    <Compile Include="Types.fs" />
-    <Compile Include="OperationHandling.fs" />
-    <Compile Include="Cosmos.fs" />
+    <Compile Include="../shared/AsyncSeqExt.fs"></Compile>
+    <Compile Include="../shared/MaybeBinder.fs"></Compile>
+    <Compile Include="IdAttribute.fs"></Compile>
+    <Compile Include="PartitionKeyAttribute.fs"></Compile>
+    <Compile Include="Types.fs"></Compile>
+    <Compile Include="OperationHandling.fs"></Compile>
+    <Compile Include="Cosmos.fs"></Compile>
   </ItemGroup>
-  <Import Project="..\..\.paket\Paket.Restore.targets" />
+  <Import Project="..\..\.paket\Paket.Restore.targets"></Import>
 </Project>
