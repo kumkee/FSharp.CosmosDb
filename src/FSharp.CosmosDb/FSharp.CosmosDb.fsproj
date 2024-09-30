@@ -1,13 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <PackageId>kumkee.CosmosDB</PackageId>
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
     <TargetFramework>net6.0</TargetFramework>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/kumkee/FSharp.CosmosDb/tree/kumkee/src/FSharp.CosmosDb</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
     <Description>An F# friendly approach to working with CosmosDB.</Description>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="README.md" Pack="true" PackagePath="/"/>
+    <None Include="README.md" Pack="true" PackagePath="/"></None>
     <Compile Include="../shared/AsyncSeqExt.fs"></Compile>
     <Compile Include="../shared/MaybeBinder.fs"></Compile>
     <Compile Include="IdAttribute.fs"></Compile>
