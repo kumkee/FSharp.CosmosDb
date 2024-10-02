@@ -10,14 +10,22 @@
     <Description>An F# friendly approach to working with CosmosDB.</Description>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="README.md" Pack="true" PackagePath="/"></None>
-    <Compile Include="../shared/AsyncSeqExt.fs"></Compile>
-    <Compile Include="../shared/MaybeBinder.fs"></Compile>
-    <Compile Include="IdAttribute.fs"></Compile>
-    <Compile Include="PartitionKeyAttribute.fs"></Compile>
-    <Compile Include="Types.fs"></Compile>
-    <Compile Include="OperationHandling.fs"></Compile>
-    <Compile Include="Cosmos.fs"></Compile>
+    <None Include="README.md" Pack="true" PackagePath="/">
+    </None>
+    <Compile Include="../shared/AsyncSeqExt.fs">
+    </Compile>
+    <Compile Include="../shared/MaybeBinder.fs">
+    </Compile>
+    <Compile Include="IdAttribute.fs">
+    </Compile>
+    <Compile Include="PartitionKeyAttribute.fs">
+    </Compile>
+    <Compile Include="Types.fs">
+    </Compile>
+    <Compile Include="OperationHandling.fs">
+    </Compile>
+    <Compile Include="Cosmos.fs">
+    </Compile>
   </ItemGroup>
-  <Import Project="..\..\.paket\Paket.Restore.targets"></Import>
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>
